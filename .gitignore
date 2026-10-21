@@ -1,0 +1,24 @@
+# Dataset - too big for GitHub
+crime_scene_detector/data/dataset/train/
+crime_scene_detector/data/dataset/valid/
+crime_scene_detector/data/dataset/test/
+data/dataset/
+
+# Trained models - too big (100MB+)
+*.pt
+*.pth
+crime_scene_detector/models/
+models/
+runs/
+
+# Python cache
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Streamlit / OS
+.streamlit/
+.DS_Store
+Thumbs.db
