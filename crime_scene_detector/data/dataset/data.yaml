@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+
+nc: 15
+names: ['Blood', 'Finger-print', 'Glass', 'Hammer', 'Handgun', 'Human-body', 'Human-hair', 'Human-hand', 'Knife', 'Rope', 'Shoe-print', 'Shotgun', 'Victim', 'human_with_weapon', 'Weapon']
+
+roboflow:
+  workspace: crimesceneobjectsdetection
+  project: crime-scene-oma5u
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/crimesceneobjectsdetection/crime-scene-oma5u/dataset/7
